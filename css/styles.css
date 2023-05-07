@@ -246,7 +246,7 @@ img {
 }
 .title-mb{
     margin-bottom: 72px;
-    
+    line-height: 1.1;
 }
 .sc-four-ul{
     display: flex; 
@@ -267,8 +267,7 @@ img {
 .sc-four-box{
     padding-top: 32px;
     padding-bottom: 32px; 
-    padding-left: 16px; 
-    padding-right: 16px;
+
 
 }
 .social{
@@ -377,7 +376,6 @@ img {
 }
 
 .social-media{
-line-height: 1.1;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
