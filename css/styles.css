@@ -192,14 +192,7 @@ img {
     align-items: center;
     height: 112px;
 }
-.sc-two-icons{
-    width: 64px;
-    height: 64px;
-}
-.sc-two-box > svg{
-    width: 64px;
-    height: 64px;
-}
+
 .title-list{
     font-weight: 500;
     font-size: 20px;
