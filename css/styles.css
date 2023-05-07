@@ -14,13 +14,11 @@ body{
     font-family: "Roboto", sans-serif;
     color: var(--slate-color);
 }
-
 h1,
 h2,
 h3,
 h4,
 p,
-
 li{
     margin-top: 0;
     margin-bottom: 0;
@@ -177,6 +175,15 @@ img {
 .sc-two-lists{
     width: calc((100% - 3 * 24px) / 4);
 }
+.sc-two-box{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--cloud-color);
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
 .title-list{
     font-weight: 500;
     font-size: 20px;
@@ -259,6 +266,28 @@ img {
 }
 .sc-four-text{
     text-align: center;
+    margin-bottom: 8px;
+}
+.sc-four-social-ul{
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.sc-four-social-box{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--iris-color);
+    justify-content: center;
+    align-items: center;
+}
+.sc-four-social-box:hover,
+.sc-four-social-box:focus{
+    background-color: var(--ocean-color);
 }
 .foot{
     background-color:var(--navy-blye-color);
