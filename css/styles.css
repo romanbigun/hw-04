@@ -115,10 +115,13 @@ img {
     color:  var(--ocean-color);
 }
 .section-one{
-    background-color:var(--navy-blye-color);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg); 
     padding-top: 188px;
     padding-bottom: 188px;
-    
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .heading{
     font-size: 56px;
@@ -186,6 +189,12 @@ img {
     background-color: var(--cloud-color);
     border-radius: 4px;
     margin-bottom: 8px;
+    align-items: center;
+    height: 112px;
+}
+.sc-two-icons{
+    width: 64px;
+    height: 64px;
 }
 .title-list{
     font-weight: 500;
